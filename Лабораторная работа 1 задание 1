@@ -1,0 +1,22 @@
+using System;
+
+namespace Лабораторная_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Лабораторная работа №1");
+            Console.WriteLine("");
+            Console.WriteLine("Выполнила: Лазарева Мария");
+            Console.WriteLine("Группа: ИНС-б-о-18-1, 09.03.02");
+            Console.WriteLine("Наименование ЛР: разработка консольного приложения");
+            Console.WriteLine("Дата рождения: 29.08.2001");
+            Console.WriteLine("г.Старополь");
+            Console.WriteLine("Любимый предмет в школе: информатика");
+            Console.WriteLine("Увлечения: игра на гитаре и синтезаторе");
+            Console.WriteLine("");
+            Console.WriteLine("Для завершения работы программы нажмите любую клавишу");
+
+        }
+    }
