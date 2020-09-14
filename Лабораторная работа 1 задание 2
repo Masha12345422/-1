@@ -1,0 +1,34 @@
+using System;
+namespace Лабораторная_работа__1_задание_2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            double f = 8.75, y = 2;
+            double Z = 35 / f + y * f - (f = y) / 4;
+            Console.WriteLine(Z);
+
+
+
+            bool isEqual = (f==0);
+
+            try
+            {
+                if (isEqual)
+                    throw new Exception("f=0,на нуль делить нельзя");
+
+            }
+
+            catch (Exception e) { }
+
+
+        }
+
+    }
+}
+    
+
+
+
